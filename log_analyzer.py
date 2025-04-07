@@ -102,7 +102,7 @@ def print_analysis_results(analysis):
 # Example usage
 if __name__ == "__main__":
     # Sample log file path - replace with your actual log file path
-    log_file_path = 'logfile.txt'
+    log_file_path = 'applog.txt'
     
     # Parse and analyze the logs
     logs = parse_log_file(log_file_path)
