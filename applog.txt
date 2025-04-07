@@ -1,0 +1,13 @@
+2023-03-01 08:15:27 - ServiceA - INFO - Started processing request #123
+2023-03-01 08:15:28 - ServiceB - ERROR - Null pointer exception
+2023-03-01 08:15:29 - ServiceA - INFO - Completed request #123 in 2ms
+2023-03-01 08:20:05 - ServiceC - WARN - Disk usage is at 85%
+2023-03-01 08:35:10 - ServiceB - ERROR - Null pointer exception
+2023-03-01 08:40:05 - ServiceA - INFO - Cleaned up temporary files
+2023-03-01 08:44:11 - ServiceD - INFO - Heartbeat check
+2023-03-01 09:00:00 - ServiceB - INFO - Started job X
+2023-03-01 09:00:01 - ServiceB - ERROR - Job X failed to start
+2023-03-01 09:05:30 - ??? - INFO - Malformed line
+2023-03-01 09:10:00 - ServiceC - WARN - Low memory
+2023-03-01 - ServiceA - ERROR - Missing timestamp detail
+2023-03-01 09:11:00 - ServiceE - DEBUG - This is a debug message
