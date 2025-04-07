@@ -24,7 +24,7 @@ def parse_log_file(log_file_path): # Takes file path as string and returns List 
                             timestamp = datetime.strptime(timestamp_str, fmt)
                             break
                         except ValueError as e:
-                            print("Error occured while parsing date", e)
+                            print("Warning: while parsing date", e)
                             continue
                     else:
                         timestamp = timestamp_str
